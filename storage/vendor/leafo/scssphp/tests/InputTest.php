@@ -18,7 +18,7 @@ class InputTest extends PHPUnit_Framework_TestCase {
 
 	public function setUp() {
 		$this->scss = new scssc();
-		$this->scss->addImportPath(__DIR__ . "/" . self::$inputDir);
+		$this->scss->addImportPath(__DIR__ . "InputTest.php/" . self::$inputDir);
 	}
 
 	/**
@@ -52,7 +52,7 @@ class InputTest extends PHPUnit_Framework_TestCase {
 	}
 
 	static public function findInputNames($pattern="*") {
-		$files = glob(__DIR__ . "/" . self::$inputDir . "/" . $pattern);
+		$files = glob(__DIR__ . "/" . $pattern);
 		$files = array_filter($files, "is_file");
 		if ($pattern = getenv("MATCH")) {
 			$files = array_filter($files, function($fname) use ($pattern) {
@@ -64,14 +64,14 @@ class InputTest extends PHPUnit_Framework_TestCase {
 	}
 
 	static public function outputNameFor($input) {
-		$front = _quote(__DIR__ . "/");
+		$front = _quote(__DIR__ . "InputTest.php/");
 		$out = preg_replace("/^$front/", "", $input);
 
 		$in = _quote(self::$inputDir . "/");
 		$out = preg_replace("/$in/", self::$outputDir . "/", $out);
 		$out = preg_replace("/.scss$/", ".css", $out);
 
-		return __DIR__ . "/" . $out;
+		return __DIR__ . "InputTest.php/" . $out;
 	}
 
 	static public function buildTests($pattern) {

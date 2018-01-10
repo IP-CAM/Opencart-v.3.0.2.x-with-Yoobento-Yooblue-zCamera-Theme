@@ -35,7 +35,7 @@ class FilesLoaderTest extends TestCase
     public function getFilesLoader(LoaderInterface $loader)
     {
         return $this->getMockForAbstractClass('Symfony\Component\Validator\Tests\Fixtures\FilesLoader', array(array(
-            __DIR__.'/constraint-mapping.xml',
+            __DIR__ . '/constraint-mapping.xml',
             __DIR__.'/constraint-mapping.yaml',
             __DIR__.'/constraint-mapping.test',
             __DIR__.'/constraint-mapping.txt',

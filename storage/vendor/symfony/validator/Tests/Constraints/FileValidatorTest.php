@@ -291,7 +291,7 @@ abstract class FileValidatorTest extends AbstractConstraintValidatorTest
     {
         $file = $this
             ->getMockBuilder('Symfony\Component\HttpFoundation\File\File')
-            ->setConstructorArgs(array(__DIR__.'/Fixtures/foo'))
+            ->setConstructorArgs(array(__DIR__ . '/Fixtures/foo'))
             ->getMock();
         $file
             ->expects($this->once())
@@ -315,7 +315,7 @@ abstract class FileValidatorTest extends AbstractConstraintValidatorTest
     {
         $file = $this
             ->getMockBuilder('Symfony\Component\HttpFoundation\File\File')
-            ->setConstructorArgs(array(__DIR__.'/Fixtures/foo'))
+            ->setConstructorArgs(array(__DIR__ . '/Fixtures/foo'))
             ->getMock();
         $file
             ->expects($this->once())
@@ -339,7 +339,7 @@ abstract class FileValidatorTest extends AbstractConstraintValidatorTest
     {
         $file = $this
             ->getMockBuilder('Symfony\Component\HttpFoundation\File\File')
-            ->setConstructorArgs(array(__DIR__.'/Fixtures/foo'))
+            ->setConstructorArgs(array(__DIR__ . '/Fixtures/foo'))
             ->getMock();
         $file
             ->expects($this->once())
@@ -369,7 +369,7 @@ abstract class FileValidatorTest extends AbstractConstraintValidatorTest
     {
         $file = $this
             ->getMockBuilder('Symfony\Component\HttpFoundation\File\File')
-            ->setConstructorArgs(array(__DIR__.'/Fixtures/foo'))
+            ->setConstructorArgs(array(__DIR__ . '/Fixtures/foo'))
             ->getMock();
         $file
             ->expects($this->once())
