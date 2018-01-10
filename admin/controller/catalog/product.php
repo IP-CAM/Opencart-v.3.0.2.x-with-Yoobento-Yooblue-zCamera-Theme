@@ -1339,7 +1339,7 @@ class ControllerCatalogProduct extends Controller
 
     public function importProductFromFile()
     {
-        $category_find = [];
+       /* $category_find = [];
         $pieces = [];
         $file_handle = fopen(DIR_UPLOAD . "category.txt", "r");
         $this->load->model('catalog/category');
@@ -1434,7 +1434,7 @@ class ControllerCatalogProduct extends Controller
             } catch (Exception $e) {
                 echo 'Caught exception: ', $e->getMessage(), "\n";
             }
-        }
+        }*/
     }
 
 }
