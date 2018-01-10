@@ -1,0 +1,6 @@
+сделать невидимым полоску слайдера extension/modules -> Carusel/Home Page edit disable
+							Slideshow/Home Page edit disable
+
+
+Вставить sku в продакт код - C:\OSPanel\domains\upload\catalog\controller\product\product.php
+строка 240 $data['model'] = $product_info['sku'];

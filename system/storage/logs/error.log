@@ -1,0 +1,7 @@
+2018-01-04 21:11:13 - PHP Warning:  PDO::__construct(): MySQL server has gone away in C:\OSPanel\domains\upload\system\library\db\mpdo.php on line 9
+2018-01-04 21:11:13 - PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\OSPanel\domains\upload\system\framework.php:42) in C:\OSPanel\domains\upload\system\framework.php on line 108
+2018-01-04 21:11:13 - PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\OSPanel\domains\upload\system\framework.php:42) in C:\OSPanel\domains\upload\catalog\controller\startup\session.php on line 25
+2018-01-04 21:11:13 - PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\OSPanel\domains\upload\system\framework.php:42) in C:\OSPanel\domains\upload\catalog\controller\startup\startup.php on line 99
+2018-01-04 21:11:13 - PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\OSPanel\domains\upload\system\framework.php:42) in C:\OSPanel\domains\upload\catalog\controller\startup\startup.php on line 157
+2018-01-04 21:44:16 - PHP Warning:  PDO::__construct(): MySQL server has gone away in C:\OSPanel\domains\upload\system\library\db\mpdo.php on line 9
+2018-01-04 21:44:16 - PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\OSPanel\domains\upload\system\framework.php:42) in C:\OSPanel\domains\upload\system\framework.php on line 108
