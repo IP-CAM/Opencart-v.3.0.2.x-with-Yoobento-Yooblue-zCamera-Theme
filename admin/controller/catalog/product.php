@@ -1339,11 +1339,14 @@ class ControllerCatalogProduct extends Controller
 
     public function importProductFromFile()
     {
-       /* $category_find = [];
+       /*$category_find = [];
         $pieces = [];
         $file_handle = fopen(DIR_UPLOAD . "category.txt", "r");
         $this->load->model('catalog/category');
+        $parent = [1,2,3,4,5];
+        $counter = 0;
         while (!feof($file_handle)) {
+            $counter++;
             $line = fgets($file_handle);
             $pieces = explode("(", $line);
             $find = explode(",", $line);
@@ -1353,6 +1356,11 @@ class ControllerCatalogProduct extends Controller
             $category['sort_order'] = 0;
             $category['status'] = 1;
             $category['column'] = 0;
+            if(in_array($counter,$parent)){
+                $category['parent_id'] = 0;
+            }else{
+                $category['parent_id'] = $parent[array_rand($parent,1)];
+            }
             $category_id = $this->model_catalog_category->addCategoryMy($category);
             $category_find[$category_id] = $find;
         }

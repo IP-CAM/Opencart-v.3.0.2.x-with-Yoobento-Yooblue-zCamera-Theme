@@ -240,6 +240,7 @@ class ControllerProductProduct extends Controller {
 			$data['model'] = $product_info['sku'];
 			$data['reward'] = $product_info['reward'];
 			$data['points'] = $product_info['points'];
+            $data['upc'] = $product_info['upc'];
 			$data['description'] = html_entity_decode($product_info['description'], ENT_QUOTES, 'UTF-8');
 
 			if ($product_info['quantity'] <= 0) {

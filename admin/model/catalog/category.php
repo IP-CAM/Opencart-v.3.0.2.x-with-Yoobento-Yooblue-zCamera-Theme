@@ -6,9 +6,18 @@ class ModelCatalogCategory extends Model {
     }
 
     public function addCategoryMy($data) {
-        $this->db->query("INSERT INTO " . DB_PREFIX . "category SET `top` = '" . (isset($data['top']) ? (int)$data['top'] : 0) . "', `column` = '" . (int)$data['column'] . "', sort_order = '" . (int)$data['sort_order'] . "', status = '" . (int)$data['status'] . "', date_modified = NOW(), date_added = NOW()");
+        $this->db->query("INSERT INTO " . DB_PREFIX . "category SET `top` = '" . (isset($data['top']) ? (int)$data['top'] : 0) . "', `column` = '" . (int)$data['column'] . "', sort_order = '" . (int)$data['sort_order'] . "', status = '" . (int)$data['status'] . "', parent_id = '" . (int)$data['parent_id'] . "', date_modified = NOW(), date_added = NOW()");
         $category_id = $this->db->getLastId();
         $this->db->query("INSERT INTO " . DB_PREFIX . "category_description SET category_id = '" . (int)$category_id . "', language_id = 1, name = '" . $this->db->escape($data['name']) . "', description = '" . $this->db->escape($data['name']) . "', meta_title = '" . $this->db->escape($data['name']) . "', meta_description = '" . $this->db->escape($data['name']) . "', meta_keyword = '" . $this->db->escape($data['name']) . "'");
+        $level = 0;
+        $query = $this->db->query("SELECT * FROM `" . DB_PREFIX . "category_path` WHERE category_id = '" . (int)$data['parent_id'] . "' ORDER BY `level` ASC");
+
+        foreach ($query->rows as $result) {
+            $this->db->query("INSERT INTO `" . DB_PREFIX . "category_path` SET `category_id` = '" . (int)$category_id . "', `path_id` = '" . (int)$result['path_id'] . "', `level` = '" . (int)$level . "'");
+
+            $level++;
+        }
+        $this->db->query("INSERT INTO `" . DB_PREFIX . "category_path` SET `category_id` = '" . (int)$category_id . "', `path_id` = '" . (int)$category_id . "', `level` = '" . (int)$level . "'");
         return $category_id;
 
     }

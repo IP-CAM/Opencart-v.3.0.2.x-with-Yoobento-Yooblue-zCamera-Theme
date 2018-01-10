@@ -4,6 +4,9 @@
     <list default="true" id="a24a564f-d57b-435c-a412-388bf5da33ed" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/controller/catalog/product.php" afterPath="$PROJECT_DIR$/admin/controller/catalog/product.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/model/catalog/category.php" afterPath="$PROJECT_DIR$/admin/model/catalog/category.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/product/product.php" afterPath="$PROJECT_DIR$/catalog/controller/product/product.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/product/product.twig" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/product/product.twig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,10 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="product.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/controller/product/product.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="242" column="45" lean-forward="false" selection-start-line="242" selection-start-column="45" selection-end-line="242" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="cart.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catalog/view/theme/zCamera/template/common/cart.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
+            <state relative-caret-position="777">
               <caret line="37" column="33" lean-forward="false" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
               <folding>
                 <element signature="e#1627#1633#0#HTML" expanded="true" />
@@ -36,21 +49,52 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="product.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/controller/catalog/product.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2174">
-              <caret line="1436" column="11" lean-forward="false" selection-start-line="1436" selection-start-column="11" selection-end-line="1436" selection-end-column="11" />
+            <state relative-caret-position="5475">
+              <caret line="1444" column="11" lean-forward="false" selection-start-line="1444" selection-start-column="11" selection-end-line="1444" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="error.log" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/storage/logs/error.log">
-          <provider selected="true" editor-type-id="LargeFileEditor">
-            <state relative-caret-position="-63">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+      <file leaf-file-name="product.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/product.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="132" column="20" lean-forward="false" selection-start-line="132" selection-start-column="20" selection-end-line="132" selection-end-column="20" />
+              <folding>
+                <marker date="1515610178348" expanded="true" signature="21657:21664" ph="×" />
+                <marker date="1515610178348" expanded="true" signature="22605:22619" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cart.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/image/catalog/cart.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="category.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/model/catalog/category.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <marker date="1515180236891" expanded="true" signature="121:170" ph="SELECT catag... ${DB_PREFIX}" />
+                <marker date="1515180236891" expanded="true" signature="121:171" ph="SELECT catag... ${DB_PREFIX}" />
+                <marker date="1515180236891" expanded="true" signature="255:696" ph="SELECT DISTI... ${DB_PREFIX}" />
+                <marker date="1515180236891" expanded="true" signature="805:1272" ph="SELECT * FRO... ${DB_PREFIX}" />
+                <marker date="1515180236891" expanded="true" signature="1407:1509" ph="SELECT filte... ${DB_PREFIX}" />
+                <marker date="1515180236891" expanded="true" signature="1694:2171" ph="SELECT DISTI... ${DB_PREFIX}" />
+                <marker date="1515180236891" expanded="true" signature="2301:2690" ph="SELECT DISTI... ${DB_PREFIX}" />
+                <marker date="1515180236891" expanded="true" signature="3215:3380" ph="SELECT * FRO... ${DB_PREFIX}" />
+                <marker date="1515180236891" expanded="true" signature="3579:3859" ph="SELECT COUNT... ${DB_PREFIX}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,7 +103,7 @@
         <entry file="file://$PROJECT_DIR$/.htaccess">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="84">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -68,83 +112,66 @@
       <file leaf-file-name="category.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/model/catalog/category.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+            <state relative-caret-position="315">
+              <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
               <folding>
-                <marker date="1515537252365" expanded="true" signature="121:170" ph="SELECT categ... ${DB_PREFIX}" />
-                <marker date="1515537252365" expanded="true" signature="251:532" ph="INSERT INTO ${DB_PREFIX}category... " />
-                <marker date="1515537252365" expanded="true" signature="609:1009" ph="INSERT INTO ${DB_PREFIX}category_description... " />
-                <marker date="1515537252365" expanded="true" signature="1108:1436" ph="INSERT INTO ${DB_PREFIX}category... " />
-                <marker date="1515537252365" expanded="true" signature="1771:2235" ph="INSERT INTO ${DB_PREFIX}category_description... " />
-                <marker date="1515537252365" expanded="true" signature="2339:2460" ph="SELECT * FRO... ${DB_PREFIX}category_path" />
-                <marker date="1515537252365" expanded="true" signature="2524:2696" ph="INSERT INTO `${DB_PREFIX}category_path`... " />
-                <marker date="1515537252365" expanded="true" signature="2739:2905" ph="INSERT INTO `${DB_PREFIX}category_path`... " />
-                <marker date="1515537252365" expanded="true" signature="3027:3156" ph="INSERT INTO ${DB_PREFIX}category_filter... " />
-                <marker date="1515537252365" expanded="true" signature="3284:3413" ph="INSERT INTO ${DB_PREFIX}category_to_store... " />
-                <marker date="1515537252365" expanded="true" signature="3645:3862" ph="INSERT INTO ${DB_PREFIX}seo_url... " />
-                <marker date="1515537252365" expanded="true" signature="4069:4238" ph="INSERT INTO ${DB_PREFIX}category_to_layout... " />
-                <marker date="1515537252365" expanded="true" signature="4962:5059" ph="DELETE FROM " />
-                <marker date="1515537252365" expanded="true" signature="5155:5619" ph="INSERT INTO ${DB_PREFIX}category_description... " />
-                <marker date="1515537252365" expanded="true" signature="5708:5817" ph="SELECT * FRO... ${DB_PREFIX}category_path" />
-                <marker date="1515537252365" expanded="true" signature="5957:6117" ph="DELETE FROM " />
-                <marker date="1515537252365" expanded="true" signature="6208:6327" ph="SELECT * FRO... ${DB_PREFIX}category_path" />
-                <marker date="1515537252365" expanded="true" signature="6493:6623" ph="SELECT * FRO... ${DB_PREFIX}category_path" />
-                <marker date="1515537252365" expanded="true" signature="7109:7201" ph="DELETE FROM " />
-                <marker date="1515537252365" expanded="true" signature="7288:7407" ph="SELECT * FRO... ${DB_PREFIX}category_path" />
-                <marker date="1515537252365" expanded="true" signature="7473:7641" ph="INSERT INTO `${DB_PREFIX}category_path`... " />
-                <marker date="1515537252365" expanded="true" signature="7879:7971" ph="DELETE FROM " />
-                <marker date="1515537252365" expanded="true" signature="8093:8222" ph="INSERT INTO ${DB_PREFIX}category_filter... " />
-                <marker date="1515537252365" expanded="true" signature="8256:8350" ph="DELETE FROM " />
-                <marker date="1515537252365" expanded="true" signature="8469:8598" ph="INSERT INTO ${DB_PREFIX}category_to_store... " />
-                <marker date="1515537252365" expanded="true" signature="8645:8737" ph="DELETE FROM " />
-                <marker date="1515537252365" expanded="true" signature="8958:9175" ph="INSERT INTO ${DB_PREFIX}seo_url... " />
-                <marker date="1515537252365" expanded="true" signature="9224:9319" ph="DELETE FROM " />
-                <marker date="1515537252365" expanded="true" signature="9454:9623" ph="INSERT INTO ${DB_PREFIX}category_to_layout... " />
-                <marker date="1515537252365" expanded="true" signature="9745:9835" ph="DELETE FROM " />
-                <marker date="1515537252365" expanded="true" signature="9869:9957" ph="SELECT * FRO... ${DB_PREFIX}" />
-                <marker date="1515537252365" expanded="true" signature="10075:10160" ph="DELETE FROM " />
-                <marker date="1515537252365" expanded="true" signature="10184:10281" ph="DELETE FROM " />
-                <marker date="1515537252365" expanded="true" signature="10305:10397" ph="DELETE FROM " />
-                <marker date="1515537252365" expanded="true" signature="10421:10515" ph="DELETE FROM " />
-                <marker date="1515537252365" expanded="true" signature="10539:10634" ph="DELETE FROM " />
-                <marker date="1515537252365" expanded="true" signature="10658:10754" ph="DELETE FROM " />
-                <marker date="1515537252365" expanded="true" signature="10778:10868" ph="DELETE FROM " />
-                <marker date="1515537252365" expanded="true" signature="10892:10984" ph="DELETE FROM " />
-                <marker date="1515537252365" expanded="true" signature="11110:11193" ph="SELECT * FRO... ${DB_PREFIX}" />
-                <marker date="1515537252365" expanded="true" signature="11303:11407" ph="DELETE FROM " />
-                <marker date="1515537252365" expanded="true" signature="11494:11605" ph="SELECT * FRO... ${DB_PREFIX}category_path" />
-                <marker date="1515537252365" expanded="true" signature="11671:11851" ph="INSERT INTO `${DB_PREFIX}category_path`... " />
-                <marker date="1515537252365" expanded="true" signature="12225:12886" ph="SELECT DISTI... ${DB_PREFIX}" />
-                <marker date="1515537252365" expanded="true" signature="12979:13656" ph="SELECT cp.ca... ${DB_PREFIX}" />
-                <marker date="1515537252365" expanded="true" signature="14601:14700" ph="SELECT * FRO... ${DB_PREFIX}" />
-                <marker date="1515537252365" expanded="true" signature="15184:15302" ph="SELECT categ... ${DB_PREFIX}" />
-                <marker date="1515537252365" expanded="true" signature="15452:15546" ph="SELECT * FRO... ${DB_PREFIX}" />
-                <marker date="1515537252365" expanded="true" signature="15796:15892" ph="SELECT * FRO... ${DB_PREFIX}" />
-                <marker date="1515537252365" expanded="true" signature="16145:16237" ph="SELECT * FRO... ${DB_PREFIX}" />
-                <marker date="1515537252365" expanded="true" signature="16533:16630" ph="SELECT * FRO... ${DB_PREFIX}" />
-                <marker date="1515537252365" expanded="true" signature="16853:16908" ph="SELECT COUNT... ${DB_PREFIX}" />
-                <marker date="1515537252365" expanded="true" signature="17038:17147" ph="SELECT COUNT... ${DB_PREFIX}" />
+                <marker date="1515606132702" expanded="true" signature="121:170" ph="SELECT categ... ${DB_PREFIX}" />
+                <marker date="1515606132702" expanded="true" signature="251:579" ph="INSERT INTO ${DB_PREFIX}category... " />
+                <marker date="1515606132702" expanded="true" signature="656:1056" ph="INSERT INTO ${DB_PREFIX}category_description... " />
+                <marker date="1515606132702" expanded="true" signature="1115:1236" ph="SELECT * FRO... ${DB_PREFIX}category_path" />
+                <marker date="1515606132702" expanded="true" signature="1315:1487" ph="INSERT INTO `${DB_PREFIX}category_path`... " />
+                <marker date="1515606132702" expanded="true" signature="1550:1716" ph="INSERT INTO `${DB_PREFIX}category_path`... " />
+                <marker date="1515606132702" expanded="true" signature="1815:2143" ph="INSERT INTO ${DB_PREFIX}category... " />
+                <marker date="1515606132702" expanded="true" signature="2478:2942" ph="INSERT INTO ${DB_PREFIX}category_description... " />
+                <marker date="1515606132702" expanded="true" signature="3046:3167" ph="SELECT * FRO... ${DB_PREFIX}category_path" />
+                <marker date="1515606132702" expanded="true" signature="3231:3403" ph="INSERT INTO `${DB_PREFIX}category_path`... " />
+                <marker date="1515606132702" expanded="true" signature="3446:3612" ph="INSERT INTO `${DB_PREFIX}category_path`... " />
+                <marker date="1515606132702" expanded="true" signature="3734:3863" ph="INSERT INTO ${DB_PREFIX}category_filter... " />
+                <marker date="1515606132702" expanded="true" signature="3991:4120" ph="INSERT INTO ${DB_PREFIX}category_to_store... " />
+                <marker date="1515606132702" expanded="true" signature="4352:4569" ph="INSERT INTO ${DB_PREFIX}seo_url... " />
+                <marker date="1515606132702" expanded="true" signature="4776:4945" ph="INSERT INTO ${DB_PREFIX}category_to_layout... " />
+                <marker date="1515606132702" expanded="true" signature="5669:5766" ph="DELETE FROM " />
+                <marker date="1515606132702" expanded="true" signature="5862:6326" ph="INSERT INTO ${DB_PREFIX}category_description... " />
+                <marker date="1515606132702" expanded="true" signature="6415:6524" ph="SELECT * FRO... ${DB_PREFIX}category_path" />
+                <marker date="1515606132702" expanded="true" signature="6664:6824" ph="DELETE FROM " />
+                <marker date="1515606132702" expanded="true" signature="6915:7034" ph="SELECT * FRO... ${DB_PREFIX}category_path" />
+                <marker date="1515606132702" expanded="true" signature="7200:7330" ph="SELECT * FRO... ${DB_PREFIX}category_path" />
+                <marker date="1515606132702" expanded="true" signature="7816:7908" ph="DELETE FROM " />
+                <marker date="1515606132702" expanded="true" signature="7995:8114" ph="SELECT * FRO... ${DB_PREFIX}category_path" />
+                <marker date="1515606132702" expanded="true" signature="8180:8348" ph="INSERT INTO `${DB_PREFIX}category_path`... " />
+                <marker date="1515606132702" expanded="true" signature="8586:8678" ph="DELETE FROM " />
+                <marker date="1515606132702" expanded="true" signature="8800:8929" ph="INSERT INTO ${DB_PREFIX}category_filter... " />
+                <marker date="1515606132702" expanded="true" signature="8963:9057" ph="DELETE FROM " />
+                <marker date="1515606132702" expanded="true" signature="9176:9305" ph="INSERT INTO ${DB_PREFIX}category_to_store... " />
+                <marker date="1515606132702" expanded="true" signature="9352:9444" ph="DELETE FROM " />
+                <marker date="1515606132702" expanded="true" signature="9665:9882" ph="INSERT INTO ${DB_PREFIX}seo_url... " />
+                <marker date="1515606132702" expanded="true" signature="9931:10026" ph="DELETE FROM " />
+                <marker date="1515606132702" expanded="true" signature="10161:10330" ph="INSERT INTO ${DB_PREFIX}category_to_layout... " />
+                <marker date="1515606132702" expanded="true" signature="10452:10542" ph="DELETE FROM " />
+                <marker date="1515606132702" expanded="true" signature="10576:10664" ph="SELECT * FRO... ${DB_PREFIX}" />
+                <marker date="1515606132702" expanded="true" signature="10782:10867" ph="DELETE FROM " />
+                <marker date="1515606132702" expanded="true" signature="10891:10988" ph="DELETE FROM " />
+                <marker date="1515606132702" expanded="true" signature="11012:11104" ph="DELETE FROM " />
+                <marker date="1515606132702" expanded="true" signature="11128:11222" ph="DELETE FROM " />
+                <marker date="1515606132702" expanded="true" signature="11246:11341" ph="DELETE FROM " />
+                <marker date="1515606132702" expanded="true" signature="11365:11461" ph="DELETE FROM " />
+                <marker date="1515606132702" expanded="true" signature="11485:11575" ph="DELETE FROM " />
+                <marker date="1515606132702" expanded="true" signature="11599:11691" ph="DELETE FROM " />
+                <marker date="1515606132702" expanded="true" signature="11817:11900" ph="SELECT * FRO... ${DB_PREFIX}" />
+                <marker date="1515606132702" expanded="true" signature="12010:12114" ph="DELETE FROM " />
+                <marker date="1515606132702" expanded="true" signature="12201:12312" ph="SELECT * FRO... ${DB_PREFIX}category_path" />
+                <marker date="1515606132702" expanded="true" signature="12378:12558" ph="INSERT INTO `${DB_PREFIX}category_path`... " />
+                <marker date="1515606132702" expanded="true" signature="12932:13593" ph="SELECT DISTI... ${DB_PREFIX}" />
+                <marker date="1515606132702" expanded="true" signature="13686:14363" ph="SELECT cp.ca... ${DB_PREFIX}" />
+                <marker date="1515606132702" expanded="true" signature="15308:15407" ph="SELECT * FRO... ${DB_PREFIX}" />
+                <marker date="1515606132702" expanded="true" signature="15891:16009" ph="SELECT categ... ${DB_PREFIX}" />
+                <marker date="1515606132702" expanded="true" signature="16159:16253" ph="SELECT * FRO... ${DB_PREFIX}" />
+                <marker date="1515606132702" expanded="true" signature="16503:16599" ph="SELECT * FRO... ${DB_PREFIX}" />
+                <marker date="1515606132702" expanded="true" signature="16852:16944" ph="SELECT * FRO... ${DB_PREFIX}" />
+                <marker date="1515606132702" expanded="true" signature="17240:17337" ph="SELECT * FRO... ${DB_PREFIX}" />
+                <marker date="1515606132702" expanded="true" signature="17560:17615" ph="SELECT COUNT... ${DB_PREFIX}" />
+                <marker date="1515606132702" expanded="true" signature="17745:17854" ph="SELECT COUNT... ${DB_PREFIX}" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="featured.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/view/theme/zCamera/template/extension/module/featured.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="54" lean-forward="false" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/view/theme/zCamera/stylesheet/stylesheet.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="671" column="0" lean-forward="false" selection-start-line="671" selection-start-column="0" selection-end-line="671" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -154,16 +181,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="588">
               <caret line="106" column="27" lean-forward="false" selection-start-line="106" selection-start-column="21" selection-end-line="106" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/view/theme/zCamera/template/common/footer.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -192,6 +209,7 @@
       <find>.nd-style-1</find>
       <find>image</find>
       <find>product-compare</find>
+      <find>addCategoryMy</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -216,8 +234,6 @@
         <option value="$PROJECT_DIR$/catalog/view/theme/default/template/product/category.twig" />
         <option value="$PROJECT_DIR$/catalog/model/tool/image.php" />
         <option value="$PROJECT_DIR$/catalog/view/theme/default/stylesheet/stylesheet.css" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/default/template/product/product.twig" />
-        <option value="$PROJECT_DIR$/catalog/controller/product/product.php" />
         <option value="$PROJECT_DIR$/catalog/view/theme/zCamera/template/common/footer.twig" />
         <option value="$PROJECT_DIR$/catalog/view/theme/zCamera/template/extension/module/featured.twig" />
         <option value="$PROJECT_DIR$/catalog/view/theme/zCamera/stylesheet/stylesheet.css" />
@@ -225,6 +241,8 @@
         <option value="$PROJECT_DIR$/catalog/view/theme/default/template/product/compare.twig" />
         <option value="$PROJECT_DIR$/admin/model/catalog/category.php" />
         <option value="$PROJECT_DIR$/admin/controller/catalog/product.php" />
+        <option value="$PROJECT_DIR$/catalog/controller/product/product.php" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/default/template/product/product.twig" />
       </list>
     </option>
   </component>
@@ -235,11 +253,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1674" />
+    <option name="height" value="1030" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -264,6 +280,29 @@
               <item name="upload" type="b2602c69:ProjectViewProjectNode" />
               <item name="upload" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="upload" type="b2602c69:ProjectViewProjectNode" />
+              <item name="upload" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="catalog" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="upload" type="b2602c69:ProjectViewProjectNode" />
+              <item name="upload" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="catalog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="upload" type="b2602c69:ProjectViewProjectNode" />
+              <item name="upload" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="catalog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="product" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="upload" type="b2602c69:ProjectViewProjectNode" />
+              <item name="upload" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="storage" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -284,6 +323,7 @@
       <recent name="C:\OSPanel\domains\upload\catalog\view\theme" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\domains\upload\storage" />
       <recent name="C:\OSPanel\domains\upload\admin\controller\catalog" />
       <recent name="C:\OSPanel\domains\upload\system\storage\upload" />
       <recent name="C:\OSPanel\domains\upload\system\storage\download" />
@@ -317,17 +357,18 @@
       <workItem from="1515098581387" duration="14795000" />
       <workItem from="1515164709345" duration="30800000" />
       <workItem from="1515425477973" duration="12972000" />
-      <workItem from="1515512330023" duration="19948000" />
+      <workItem from="1515512330023" duration="28143000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78515000" />
+    <option name="totallyTimeSpent" value="86710000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="0" y="0" width="1674" height="1030" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18098818" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11201502" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -335,7 +376,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11004785" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -359,25 +400,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/controller/catalog/attribute.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/model/catalog/product.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="401" lean-forward="false" selection-start-line="8" selection-start-column="385" selection-end-line="8" selection-end-column="401" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/model/catalog/category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -633,25 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/product.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <marker date="1515453093375" expanded="true" signature="21621:21628" ph="×" />
-            <marker date="1515453093375" expanded="true" signature="22569:22583" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/controller/product/product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5250">
-          <caret line="250" column="13" lean-forward="false" selection-start-line="250" selection-start-column="13" selection-end-line="250" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/zCamera/template/common/home.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -692,91 +699,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/controller/product/compare.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="106" column="27" lean-forward="false" selection-start-line="106" selection-start-column="21" selection-end-line="106" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/zCamera/template/common/cart.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="37" column="33" lean-forward="false" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
-          <folding>
-            <element signature="e#1627#1633#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/compare.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="103">
           <caret line="49" column="30" lean-forward="false" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/model/catalog/category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <marker date="1515537252365" expanded="true" signature="121:170" ph="SELECT categ... ${DB_PREFIX}" />
-            <marker date="1515537252365" expanded="true" signature="251:532" ph="INSERT INTO ${DB_PREFIX}category... " />
-            <marker date="1515537252365" expanded="true" signature="609:1009" ph="INSERT INTO ${DB_PREFIX}category_description... " />
-            <marker date="1515537252365" expanded="true" signature="1108:1436" ph="INSERT INTO ${DB_PREFIX}category... " />
-            <marker date="1515537252365" expanded="true" signature="1771:2235" ph="INSERT INTO ${DB_PREFIX}category_description... " />
-            <marker date="1515537252365" expanded="true" signature="2339:2460" ph="SELECT * FRO... ${DB_PREFIX}category_path" />
-            <marker date="1515537252365" expanded="true" signature="2524:2696" ph="INSERT INTO `${DB_PREFIX}category_path`... " />
-            <marker date="1515537252365" expanded="true" signature="2739:2905" ph="INSERT INTO `${DB_PREFIX}category_path`... " />
-            <marker date="1515537252365" expanded="true" signature="3027:3156" ph="INSERT INTO ${DB_PREFIX}category_filter... " />
-            <marker date="1515537252365" expanded="true" signature="3284:3413" ph="INSERT INTO ${DB_PREFIX}category_to_store... " />
-            <marker date="1515537252365" expanded="true" signature="3645:3862" ph="INSERT INTO ${DB_PREFIX}seo_url... " />
-            <marker date="1515537252365" expanded="true" signature="4069:4238" ph="INSERT INTO ${DB_PREFIX}category_to_layout... " />
-            <marker date="1515537252365" expanded="true" signature="4962:5059" ph="DELETE FROM " />
-            <marker date="1515537252365" expanded="true" signature="5155:5619" ph="INSERT INTO ${DB_PREFIX}category_description... " />
-            <marker date="1515537252365" expanded="true" signature="5708:5817" ph="SELECT * FRO... ${DB_PREFIX}category_path" />
-            <marker date="1515537252365" expanded="true" signature="5957:6117" ph="DELETE FROM " />
-            <marker date="1515537252365" expanded="true" signature="6208:6327" ph="SELECT * FRO... ${DB_PREFIX}category_path" />
-            <marker date="1515537252365" expanded="true" signature="6493:6623" ph="SELECT * FRO... ${DB_PREFIX}category_path" />
-            <marker date="1515537252365" expanded="true" signature="7109:7201" ph="DELETE FROM " />
-            <marker date="1515537252365" expanded="true" signature="7288:7407" ph="SELECT * FRO... ${DB_PREFIX}category_path" />
-            <marker date="1515537252365" expanded="true" signature="7473:7641" ph="INSERT INTO `${DB_PREFIX}category_path`... " />
-            <marker date="1515537252365" expanded="true" signature="7879:7971" ph="DELETE FROM " />
-            <marker date="1515537252365" expanded="true" signature="8093:8222" ph="INSERT INTO ${DB_PREFIX}category_filter... " />
-            <marker date="1515537252365" expanded="true" signature="8256:8350" ph="DELETE FROM " />
-            <marker date="1515537252365" expanded="true" signature="8469:8598" ph="INSERT INTO ${DB_PREFIX}category_to_store... " />
-            <marker date="1515537252365" expanded="true" signature="8645:8737" ph="DELETE FROM " />
-            <marker date="1515537252365" expanded="true" signature="8958:9175" ph="INSERT INTO ${DB_PREFIX}seo_url... " />
-            <marker date="1515537252365" expanded="true" signature="9224:9319" ph="DELETE FROM " />
-            <marker date="1515537252365" expanded="true" signature="9454:9623" ph="INSERT INTO ${DB_PREFIX}category_to_layout... " />
-            <marker date="1515537252365" expanded="true" signature="9745:9835" ph="DELETE FROM " />
-            <marker date="1515537252365" expanded="true" signature="9869:9957" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1515537252365" expanded="true" signature="10075:10160" ph="DELETE FROM " />
-            <marker date="1515537252365" expanded="true" signature="10184:10281" ph="DELETE FROM " />
-            <marker date="1515537252365" expanded="true" signature="10305:10397" ph="DELETE FROM " />
-            <marker date="1515537252365" expanded="true" signature="10421:10515" ph="DELETE FROM " />
-            <marker date="1515537252365" expanded="true" signature="10539:10634" ph="DELETE FROM " />
-            <marker date="1515537252365" expanded="true" signature="10658:10754" ph="DELETE FROM " />
-            <marker date="1515537252365" expanded="true" signature="10778:10868" ph="DELETE FROM " />
-            <marker date="1515537252365" expanded="true" signature="10892:10984" ph="DELETE FROM " />
-            <marker date="1515537252365" expanded="true" signature="11110:11193" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1515537252365" expanded="true" signature="11303:11407" ph="DELETE FROM " />
-            <marker date="1515537252365" expanded="true" signature="11494:11605" ph="SELECT * FRO... ${DB_PREFIX}category_path" />
-            <marker date="1515537252365" expanded="true" signature="11671:11851" ph="INSERT INTO `${DB_PREFIX}category_path`... " />
-            <marker date="1515537252365" expanded="true" signature="12225:12886" ph="SELECT DISTI... ${DB_PREFIX}" />
-            <marker date="1515537252365" expanded="true" signature="12979:13656" ph="SELECT cp.ca... ${DB_PREFIX}" />
-            <marker date="1515537252365" expanded="true" signature="14601:14700" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1515537252365" expanded="true" signature="15184:15302" ph="SELECT categ... ${DB_PREFIX}" />
-            <marker date="1515537252365" expanded="true" signature="15452:15546" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1515537252365" expanded="true" signature="15796:15892" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1515537252365" expanded="true" signature="16145:16237" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1515537252365" expanded="true" signature="16533:16630" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1515537252365" expanded="true" signature="16853:16908" ph="SELECT COUNT... ${DB_PREFIX}" />
-            <marker date="1515537252365" expanded="true" signature="17038:17147" ph="SELECT COUNT... ${DB_PREFIX}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -790,16 +717,141 @@
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/product/compare.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="106" column="27" lean-forward="false" selection-start-line="106" selection-start-column="21" selection-end-line="106" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/catalog/cart.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/zCamera/template/common/cart.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="37" column="33" lean-forward="false" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+          <folding>
+            <element signature="e#1627#1633#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/model/catalog/category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <marker date="1515180236891" expanded="true" signature="121:170" ph="SELECT catag... ${DB_PREFIX}" />
+            <marker date="1515180236891" expanded="true" signature="121:171" ph="SELECT catag... ${DB_PREFIX}" />
+            <marker date="1515180236891" expanded="true" signature="255:696" ph="SELECT DISTI... ${DB_PREFIX}" />
+            <marker date="1515180236891" expanded="true" signature="805:1272" ph="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1515180236891" expanded="true" signature="1407:1509" ph="SELECT filte... ${DB_PREFIX}" />
+            <marker date="1515180236891" expanded="true" signature="1694:2171" ph="SELECT DISTI... ${DB_PREFIX}" />
+            <marker date="1515180236891" expanded="true" signature="2301:2690" ph="SELECT DISTI... ${DB_PREFIX}" />
+            <marker date="1515180236891" expanded="true" signature="3215:3380" ph="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1515180236891" expanded="true" signature="3579:3859" ph="SELECT COUNT... ${DB_PREFIX}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/model/catalog/category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding>
+            <marker date="1515606132702" expanded="true" signature="121:170" ph="SELECT categ... ${DB_PREFIX}" />
+            <marker date="1515606132702" expanded="true" signature="251:579" ph="INSERT INTO ${DB_PREFIX}category... " />
+            <marker date="1515606132702" expanded="true" signature="656:1056" ph="INSERT INTO ${DB_PREFIX}category_description... " />
+            <marker date="1515606132702" expanded="true" signature="1115:1236" ph="SELECT * FRO... ${DB_PREFIX}category_path" />
+            <marker date="1515606132702" expanded="true" signature="1315:1487" ph="INSERT INTO `${DB_PREFIX}category_path`... " />
+            <marker date="1515606132702" expanded="true" signature="1550:1716" ph="INSERT INTO `${DB_PREFIX}category_path`... " />
+            <marker date="1515606132702" expanded="true" signature="1815:2143" ph="INSERT INTO ${DB_PREFIX}category... " />
+            <marker date="1515606132702" expanded="true" signature="2478:2942" ph="INSERT INTO ${DB_PREFIX}category_description... " />
+            <marker date="1515606132702" expanded="true" signature="3046:3167" ph="SELECT * FRO... ${DB_PREFIX}category_path" />
+            <marker date="1515606132702" expanded="true" signature="3231:3403" ph="INSERT INTO `${DB_PREFIX}category_path`... " />
+            <marker date="1515606132702" expanded="true" signature="3446:3612" ph="INSERT INTO `${DB_PREFIX}category_path`... " />
+            <marker date="1515606132702" expanded="true" signature="3734:3863" ph="INSERT INTO ${DB_PREFIX}category_filter... " />
+            <marker date="1515606132702" expanded="true" signature="3991:4120" ph="INSERT INTO ${DB_PREFIX}category_to_store... " />
+            <marker date="1515606132702" expanded="true" signature="4352:4569" ph="INSERT INTO ${DB_PREFIX}seo_url... " />
+            <marker date="1515606132702" expanded="true" signature="4776:4945" ph="INSERT INTO ${DB_PREFIX}category_to_layout... " />
+            <marker date="1515606132702" expanded="true" signature="5669:5766" ph="DELETE FROM " />
+            <marker date="1515606132702" expanded="true" signature="5862:6326" ph="INSERT INTO ${DB_PREFIX}category_description... " />
+            <marker date="1515606132702" expanded="true" signature="6415:6524" ph="SELECT * FRO... ${DB_PREFIX}category_path" />
+            <marker date="1515606132702" expanded="true" signature="6664:6824" ph="DELETE FROM " />
+            <marker date="1515606132702" expanded="true" signature="6915:7034" ph="SELECT * FRO... ${DB_PREFIX}category_path" />
+            <marker date="1515606132702" expanded="true" signature="7200:7330" ph="SELECT * FRO... ${DB_PREFIX}category_path" />
+            <marker date="1515606132702" expanded="true" signature="7816:7908" ph="DELETE FROM " />
+            <marker date="1515606132702" expanded="true" signature="7995:8114" ph="SELECT * FRO... ${DB_PREFIX}category_path" />
+            <marker date="1515606132702" expanded="true" signature="8180:8348" ph="INSERT INTO `${DB_PREFIX}category_path`... " />
+            <marker date="1515606132702" expanded="true" signature="8586:8678" ph="DELETE FROM " />
+            <marker date="1515606132702" expanded="true" signature="8800:8929" ph="INSERT INTO ${DB_PREFIX}category_filter... " />
+            <marker date="1515606132702" expanded="true" signature="8963:9057" ph="DELETE FROM " />
+            <marker date="1515606132702" expanded="true" signature="9176:9305" ph="INSERT INTO ${DB_PREFIX}category_to_store... " />
+            <marker date="1515606132702" expanded="true" signature="9352:9444" ph="DELETE FROM " />
+            <marker date="1515606132702" expanded="true" signature="9665:9882" ph="INSERT INTO ${DB_PREFIX}seo_url... " />
+            <marker date="1515606132702" expanded="true" signature="9931:10026" ph="DELETE FROM " />
+            <marker date="1515606132702" expanded="true" signature="10161:10330" ph="INSERT INTO ${DB_PREFIX}category_to_layout... " />
+            <marker date="1515606132702" expanded="true" signature="10452:10542" ph="DELETE FROM " />
+            <marker date="1515606132702" expanded="true" signature="10576:10664" ph="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1515606132702" expanded="true" signature="10782:10867" ph="DELETE FROM " />
+            <marker date="1515606132702" expanded="true" signature="10891:10988" ph="DELETE FROM " />
+            <marker date="1515606132702" expanded="true" signature="11012:11104" ph="DELETE FROM " />
+            <marker date="1515606132702" expanded="true" signature="11128:11222" ph="DELETE FROM " />
+            <marker date="1515606132702" expanded="true" signature="11246:11341" ph="DELETE FROM " />
+            <marker date="1515606132702" expanded="true" signature="11365:11461" ph="DELETE FROM " />
+            <marker date="1515606132702" expanded="true" signature="11485:11575" ph="DELETE FROM " />
+            <marker date="1515606132702" expanded="true" signature="11599:11691" ph="DELETE FROM " />
+            <marker date="1515606132702" expanded="true" signature="11817:11900" ph="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1515606132702" expanded="true" signature="12010:12114" ph="DELETE FROM " />
+            <marker date="1515606132702" expanded="true" signature="12201:12312" ph="SELECT * FRO... ${DB_PREFIX}category_path" />
+            <marker date="1515606132702" expanded="true" signature="12378:12558" ph="INSERT INTO `${DB_PREFIX}category_path`... " />
+            <marker date="1515606132702" expanded="true" signature="12932:13593" ph="SELECT DISTI... ${DB_PREFIX}" />
+            <marker date="1515606132702" expanded="true" signature="13686:14363" ph="SELECT cp.ca... ${DB_PREFIX}" />
+            <marker date="1515606132702" expanded="true" signature="15308:15407" ph="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1515606132702" expanded="true" signature="15891:16009" ph="SELECT categ... ${DB_PREFIX}" />
+            <marker date="1515606132702" expanded="true" signature="16159:16253" ph="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1515606132702" expanded="true" signature="16503:16599" ph="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1515606132702" expanded="true" signature="16852:16944" ph="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1515606132702" expanded="true" signature="17240:17337" ph="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1515606132702" expanded="true" signature="17560:17615" ph="SELECT COUNT... ${DB_PREFIX}" />
+            <marker date="1515606132702" expanded="true" signature="17745:17854" ph="SELECT COUNT... ${DB_PREFIX}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/controller/catalog/product.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2174">
-          <caret line="1436" column="11" lean-forward="false" selection-start-line="1436" selection-start-column="11" selection-end-line="1436" selection-end-column="11" />
+        <state relative-caret-position="5475">
+          <caret line="1444" column="11" lean-forward="false" selection-start-line="1444" selection-start-column="11" selection-end-line="1444" selection-end-column="11" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/product/product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="242" column="45" lean-forward="false" selection-start-line="242" selection-start-column="45" selection-end-line="242" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/product.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="132" column="20" lean-forward="false" selection-start-line="132" selection-start-column="20" selection-end-line="132" selection-end-column="20" />
+          <folding>
+            <marker date="1515610178348" expanded="true" signature="21657:21664" ph="×" />
+            <marker date="1515610178348" expanded="true" signature="22605:22619" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
